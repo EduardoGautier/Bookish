@@ -4,10 +4,7 @@ package exercicios.uri1002;
 
 import java.util.Scanner;
 
-/**
- * @author Eduardo
- *
- */
+
 public class Main {
 
 	/**
