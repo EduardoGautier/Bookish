@@ -12,13 +12,7 @@ public class Circulo {
 	 */
 	private static final double PI = 3.14159;
 
-	/**
-	 * Cria um círculo com raio <code>raio</code>.
-	 * 
-	 * @param raio o raio do novo círculo
-	 * @throws IllegalArgumentException
-	 * 			Quando o valor do raio é menor ou igual a zero.
-	 */
+
 	public Circulo(double raio) {
 		super();
 		if (raio <= 0.0) {
@@ -27,9 +21,7 @@ public class Circulo {
 		this.raio = raio;
 	}
 
-	/**
-	 * @return the area
-	 */
+
 	public double getArea() {
 		return raio * raio * PI;
 	}
