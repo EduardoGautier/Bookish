@@ -1,12 +1,17 @@
 package exercicios.uri1012;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 public class Trapezio extends Figura {
-	
+
 	private double base1;
 	private double base2;
 	private double altura;
-	
-	
+
 	public Trapezio(double base1, double base2, double altura) {
 		super();
 		if (base1 <= 0.0) {

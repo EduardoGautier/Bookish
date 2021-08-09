@@ -1,11 +1,16 @@
 package exercicios.uri1012;
 
-public class Circulo extends Figura{
-	
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
+public class Circulo extends Figura {
+
 	private double raio;
 
 	private static final double PI = 3.14159;
-
 
 	public Circulo(double raio) {
 		super();

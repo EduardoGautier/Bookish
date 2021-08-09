@@ -6,6 +6,12 @@ import org.junit.jupiter.api.Test;
 
 import exercicios.uri1012.Trapezio;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 class TrapezioTest {
 
 	@Test

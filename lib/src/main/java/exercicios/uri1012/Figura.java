@@ -1,5 +1,11 @@
 package exercicios.uri1012;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 public abstract class Figura {
 
 	public Figura() {
@@ -8,4 +14,4 @@ public abstract class Figura {
 
 	public abstract double getArea();
 
-} 
+}

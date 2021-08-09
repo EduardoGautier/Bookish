@@ -2,6 +2,12 @@ package testesEx;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ * */
+
 import org.junit.jupiter.api.Test;
 
 import exercicios.uri1012.Quadrado;

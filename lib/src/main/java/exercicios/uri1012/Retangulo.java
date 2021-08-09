@@ -1,5 +1,11 @@
 package exercicios.uri1012;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 public class Retangulo extends Figura {
 	private double base;
 	private double altura;
@@ -15,9 +21,10 @@ public class Retangulo extends Figura {
 		this.base = base;
 		this.altura = altura;
 	};
+
 	@Override
 	public double getArea() {
-		return base * altura ;
+		return base * altura;
 	}
 
 }

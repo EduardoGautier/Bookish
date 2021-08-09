@@ -6,6 +6,12 @@ import exercicios.uri1012.Triangulo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 public class TrianguloTest {
 	@Test
 	public void testOne() {

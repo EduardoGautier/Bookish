@@ -1,5 +1,11 @@
 package exercicios.uri1002;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ * */
+
 public class Circulo {
 	
 	/*

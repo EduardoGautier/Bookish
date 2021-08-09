@@ -3,8 +3,14 @@
  */
 package exercicios.uri1012;
 
+/**
+ * 
+ * @author Eduardo Jose Gautier
+ * 
+ */
+
 public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
+	public boolean someLibraryMethod() {
+		return true;
+	}
 }
