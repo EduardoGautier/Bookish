@@ -1,8 +1,10 @@
-package Uri;
+package testesEx;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import exercicios.uri1012.Quadrado;
 
 class QuadradoTest {
 

@@ -1,6 +1,9 @@
-package Uri;
+package testesEx;
 
 import org.junit.jupiter.api.Test;
+
+import exercicios.uri1012.Triangulo;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TrianguloTest {

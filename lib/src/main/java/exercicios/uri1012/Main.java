@@ -1,4 +1,4 @@
-package Uri;
+package exercicios.uri1012;
 
 import java.util.Scanner;
 

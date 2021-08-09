@@ -1,4 +1,4 @@
-package Uri;
+package exercicios.uri1012;
 
 public abstract class Figura {
 

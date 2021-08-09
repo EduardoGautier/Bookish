@@ -1,4 +1,4 @@
-package Uri;
+package exercicios.uri1012;
 
 public class Retangulo extends Figura {
 	private double base;
