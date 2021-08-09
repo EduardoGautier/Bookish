@@ -21,7 +21,7 @@ public class Main {
 		c1 = new Circulo(raio);
 		area = c1.getArea();
 		
-		System.out.printf("A = %.4f\n", area);
+		System.out.printf("Area = %.4f\n", area);
 	}
 
 }
