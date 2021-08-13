@@ -18,6 +18,8 @@ public class Triangulo extends Figura {
 
 	public Triangulo(double base, double altura) {
 		super();
+		checkValue(base);
+		checkValue(altura);
 		this.base = base;
 		this.altura = altura;
 	}

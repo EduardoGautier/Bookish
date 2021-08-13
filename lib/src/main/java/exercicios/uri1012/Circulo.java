@@ -14,9 +14,7 @@ public class Circulo extends Figura {
 
 	public Circulo(double raio) {
 		super();
-		if (raio <= 0.0) {
-			throw new IllegalArgumentException();
-		}
+		checkValue(raio);
 		this.raio = raio;
 	}
 

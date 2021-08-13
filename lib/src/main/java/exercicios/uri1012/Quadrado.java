@@ -12,9 +12,7 @@ public class Quadrado extends Figura {
 
 	public Quadrado(double lado) {
 		super();
-		if (lado <= 0.0) {
-			throw new IllegalArgumentException();
-		}
+		checkValue(lado);
 		this.lado = lado;
 	}
 

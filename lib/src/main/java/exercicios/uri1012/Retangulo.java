@@ -12,12 +12,8 @@ public class Retangulo extends Figura {
 
 	public Retangulo(double base, double altura) {
 		super();
-		if (base <= 0.0) {
-			throw new IllegalArgumentException();
-		}
-		if (altura <= 0.0) {
-			throw new IllegalArgumentException();
-		}
+		checkValue(altura);
+		checkValue(base);
 		this.base = base;
 		this.altura = altura;
 	};

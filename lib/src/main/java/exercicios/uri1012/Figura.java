@@ -13,5 +13,11 @@ public abstract class Figura {
 	}
 
 	public abstract double getArea();
+	
+	public static void checkValue(double value) {
+		if (value <= 0.0) {
+			throw new IllegalArgumentException();
+		}
+	}
 
 }

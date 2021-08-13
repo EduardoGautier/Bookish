@@ -14,15 +14,9 @@ public class Trapezio extends Figura {
 
 	public Trapezio(double base1, double base2, double altura) {
 		super();
-		if (base1 <= 0.0) {
-			throw new IllegalArgumentException();
-		}
-		if (base2 <= 0.0) {
-			throw new IllegalArgumentException();
-		}
-		if (altura <= 0.0) {
-			throw new IllegalArgumentException();
-		}
+		checkValue(base1);
+		checkValue(base2);
+		checkValue(altura);
 		this.base1 = base1;
 		this.base2 = base2;
 		this.altura = altura;
