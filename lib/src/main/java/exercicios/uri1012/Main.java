@@ -1,5 +1,11 @@
 package exercicios.uri1012;
 
+/**
+ * 
+ * @author   Eduardo Jose Gautier
+ * 
+ */
+
 import java.util.Scanner;
 
 public class Main {
